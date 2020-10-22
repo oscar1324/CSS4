@@ -1,0 +1,42 @@
+header, aside, main, footer {
+    border: 1px solid black;
+}
+
+#container{
+    border: 2px rgb(209, 13, 13) solid;
+    width: 90%;
+    height: 700px;
+}
+
+header{
+    text-align: center;
+    width: 90%;
+    height: 100px;
+    margin: 10px;
+}
+
+main{
+    float: right;
+    border: 2px solid blue;
+    width: 70%;
+    height: 350px;
+}
+
+aside{
+    border: 2px solid rgb(43, 136, 97);
+    width: 25%;
+    height: 75px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    clear: left;
+}
+
+footer{
+    border: 1px solid black;
+    width: 90%;
+    height: 15%;
+    background: red;
+    clear: both; /*clear both para limpiar por los lados*/
+    
+}
