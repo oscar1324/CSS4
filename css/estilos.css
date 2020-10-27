@@ -6,6 +6,8 @@ header, aside, main, footer {
     border: 2px rgb(209, 13, 13) solid;
     float: right;
     margin-right: 10%;
+    min-width: 60% ;
+    max-width:  60% ;
     width: 80%;
     height: 100%;
     background-color: rgb(179, 247, 248);
